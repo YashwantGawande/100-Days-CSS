@@ -1,6 +1,6 @@
 import Link from "react-router-dom";
 import MoneyRoundedIcon from "@mui/icons-material/MoneyRounded";
-import Brightness4RoundedIcon from '@mui/icons-material/Brightness4Rounded';
+import LightModeRoundedIcon from "@mui/icons-material/LightModeRounded";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link to="/">
           <MoneyRoundedIcon />
         </Link>
-
+        <LightModeRoundedIcon />
       </div>
     </nav>
   );
